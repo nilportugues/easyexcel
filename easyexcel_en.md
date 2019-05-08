@@ -1,4 +1,5 @@
-1# Java Analysis Excel Tool easyexcel
+# Java Analysis Excel Tool easyexcel
+
 Most well-known frameworks for Java parsing and generating Excel files are Apache POI and JXL. But they all have a serious problem, they are very memory-intensive. POI has a set of SAX mode API that can solve some memory overflow problems to a certain extent, but POI still has some defects, such as the decompression and decompression storage for Excel 2007, done in memory causing the memory consumption to be very high. 
 
 Easyexcel rewrites POI's analysis of Excel 2007. It can still use a POI sax for 3M excel. It still needs about 100M memory to be reduced to KB level, and even with large excel files it will not have memory overflows. Excel 2003 version relies on POI sax mode. The model conversion package is build on top to make the usage more convenient.
