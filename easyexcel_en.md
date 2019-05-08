@@ -12,13 +12,13 @@ Easyexcel rewrites POI's analysis of Excel 2007. It can still use a POI sax for 
 * [Original README](/README.md)
 
 ## Installation 
-
+```
 <dependency>
     <groupId>com.alibaba</groupId>
     <artifactId>easyexcel</artifactId>
     <version>{latestVersion}</version>
 </dependency>
-
+```
 ## Latest version：1.1.2-beta4
 ## Maintainer
 Jīpéngfēi/姬朋飞（玉霄/Yù xiāo）
